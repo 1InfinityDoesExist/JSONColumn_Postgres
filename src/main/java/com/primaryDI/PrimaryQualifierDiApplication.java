@@ -40,6 +40,8 @@ public class PrimaryQualifierDiApplication {
 		superClass.setSubClass(subClass);
 		// Serialize
 
+		System.out.println(superClass);
+
 		try {
 			ByteArrayOutputStream bos = new ByteArrayOutputStream();
 			ObjectOutputStream oos = new ObjectOutputStream(bos);
